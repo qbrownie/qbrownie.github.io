@@ -10,6 +10,24 @@ body {
   background-repeat: no-repeat;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f0c997;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #d6994e;
+  border-radius: 20px;
+  border: 1px solid #a56f2e;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #a56f2e;
+}
+
 #titulo {
   font-family: "Neonderthaw";
   font-weight: 400;

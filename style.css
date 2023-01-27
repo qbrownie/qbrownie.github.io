@@ -290,3 +290,11 @@ main .headline-txt .midias a:hover {
     margin-bottom: 10px;
   }
 }
+
+@media (max-width: 376px) {
+  main .headline-txt h1 {
+    font-size: 74px;
+    line-height: 78px;
+    margin-top: 60px;
+  }
+}
